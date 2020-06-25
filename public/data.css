@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+
+.data-pack {
+	padding: 10px;
+	margin: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-size: 20px;
+	font-family: sans-serif;
+	border-radius: 4px;
+	color: black;
+	position: relative;
+}
+
+body {
+	background-image: linear-gradient(to left, #a2ceab, #5f8b80);
+}
+
+header h1 {
+	text-align: center;
+	padding: 15px;
+	background-color: #e4f3db;
+	font-size: 50px;
+}
+
+.link-container {
+	text-align: center;
+	margin: 15px 0 20px 0;
+}
+
+a {
+	background-color: #354f527c;
+	padding: 10px 25px;
+	border-radius: 6px;
+	text-decoration: none;
+	font-size: 20px;
+	color: black;
+	box-shadow: 0.5px 2px 2px black;
+}
+
+/* visited link */
+a:visited {
+	color: black;
+}
+
+/* mouse over link */
+a:hover {
+	background-color: #c4d4d648;
+}
+
+/* selected link */
+a:active {
+	background-color: #c4d4d648;
+}
+
+.trash {
+	width: 40px;
+	height: 50px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	background-color: #608376;
+	padding: 5px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 2px black;
+}
+
+.delete-container {
+	text-align: right;
+	margin: 30px 10px 18px 0;
+}
+
+.delete {
+	background-color: #f44541;
+	display: inline;
+	padding: 8px 15px;
+	border-radius: 4px;
+	font-size: 18px;
+	box-shadow: 0.5px 1px 2px black;
+}

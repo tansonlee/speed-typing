@@ -1,0 +1,56 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+<!DOCTYPE html>
+<html lang="en">
+  	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="A cool thing made with Glitch">
+
+		<title>Running App</title>
+
+		<!-- import the webpage's stylesheet -->
+		<link rel="stylesheet" href="/main.css">
+
+		<!-- import the webpage's client-side javascript file -->
+		
+  	</head>
+  	<body>
+		<header>
+		  	<h1>Running App</h1>
+		</header>
+
+		<div class="link-container">
+	  		<a href="./data.html">Previous Runs</a>
+		</div>
+	
+		<h2>Total Distance: </h2>
+		<h3><span id="distance">0</span>m</h3>
+
+		<div class="stats">
+			<div class="time">
+				<p class="time-label">Time</p>
+				<span id="hour">00</span>:
+				<span id="minute">00</span>:
+				<span id="second">00</span>
+			</div>
+			<div class="line"></div>
+			<div class="pace">
+				<p class="pace-label">Pace</p>
+				<span id="pace-minute">00</span>:
+				<span id="pace-second">00</span>
+			</div>
+		</div>
+		
+
+		<div id="status" class="status">Start Your Run</div>
+		<div class="start-stop">
+			<div id="start" class="button">Start</div>
+			<div id="stop" class="button">Stop</div>
+		</div>
+
+		<script src="/stopwatch.js"></script>
+		<script src="/main.js"></script>
+  	</body>
+</html>
