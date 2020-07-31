@@ -1,11 +1,8 @@
-# Running App
-My first fullstack project!
+# speed-typing
 
-Online app can be accessed at: https://tansonlee-running-app.glitch.me
+speed typing game with the a quote fetching API
+* https://thesimpsonsquoteapi.glitch.me/quotes
+* http://api.quotable.io/random
 
-Online app which tracks runs
-* distance
-* time
-* pace
-
-This is all loaded into a database so all runs are saved along with the date of the run.
+or with a random word generator API
+* https://random-word-api.herokuapp.com//word?number=10

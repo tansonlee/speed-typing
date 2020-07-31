@@ -46,113 +46,47 @@ a:active {
 	background-color: #c4d4d648;
 }
 
-h2 {
+.timer {
+	width: 100px;
+	margin: 10px auto;
+	padding: 20px;
 	font-size: 30px;
-	text-align: center;
-	margin-top: 10px;
 }
 
-h3 {
-	font-size: 40px;
-	text-align: center;
-	margin-bottom: 10px;
-}
-
-h3 span {
-	font-size: 70px;
-}
-
-.start-stop {
-	display: flex;
-	position: relative;
-}
-
-#start {
-	position: absolute;
-	text-shadow: rgba(0, 255, 0, 0.2) 0 0 6px;
-	box-shadow: 0.5px 2px 2px black;
-	left: 0;
-	width: 48%;
-	height: 100px;
-	font-size: 60px;
-}
-
-#stop {
-	position: absolute;
-	text-shadow: rgba(255, 0, 0, 0.2) 0 0 6px;
-	box-shadow: 0.5px 2px 2px black;
-	right: 0;
-	width: 48%;
-	height: 100px;
-	font-size: 60px;
-	text-align: center;
-}
-
-.status {
-	font-size: 40px;
-	text-align: center;
-	color: rgb(255, 127, 80);
-	margin: 10px;
-	font-weight: bold;
-	text-shadow: black 0 0 3px;
-	border: none;
-}
-
-.button {
-	background-color: #354f527c;
-	font-size: 30px;
-	text-align: center;
-	padding: 10px;
-	margin: 5px;
-	width: auto;
-	border-radius: 8px;
-}
-
-.button:hover {
-	cursor: pointer;
-}
-
-.button:active {
-	background-color: #c4d4d648;
-}
-
-.stats {
-	position: relative;
-	height: 70px;
-	margin: 5px;
-}
-
-.time {
-	position: absolute;
-	width: 150px;
+.main {
 	margin: 0 auto;
-	text-align: right;
-	font-size: 30px;
-	right: 55%;
+	width: 600px;
+	background-color: rgba(0, 0, 255, 0.379);
+	padding: 20px;
 }
 
-.pace {
-	position: absolute;
-	text-align: left;
-	width: 90px;
-	left: calc(55% + 2px);
-	font-size: 30px;
-}
-
-.time-label {
+.text {
+	padding: 10px;
 	font-size: 20px;
 }
 
-.pace-label {
+.typing {
+	background-color: transparent;
+	border: 2px solid #a1922e;
+	outline: none;
+	width: 100%;
+	height: 8rem;
+	margin: auto;
+	resize: none;
+	padding: 0.5rem 1rem;
+	font-size: 1rem;
+	border-radius: 0.5rem;
 	font-size: 20px;
 }
 
-.line {
-	border-left: 8px solid darkgreen;
-	height: 80px;
-	position: absolute;
-	left: 50%;
-	margin-left: -3px;
-	top: -10px;
-	border-radius: 8px;
+.typing:focus {
+	border-color: black;
+}
+
+.correct {
+	color: green;
+}
+
+.incorrect {
+	color: red;
 }
